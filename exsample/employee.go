@@ -2,7 +2,7 @@ package exsample
 
 import "time"
 
-// go:generate go-genvalueobject -Type=Employee,Department
+//go:generate go-genvalueobject -types=Employee,Department
 
 type (
 
@@ -20,4 +20,8 @@ type (
 	}
 
 	EmployeeID int
+
+	Company struct {
+		name string
+	}
 )

@@ -15,7 +15,7 @@ import (
 const generateFileNameSuffix = "_value_gen.go"
 
 func main() {
-	inputStructNames := flag.String("Types", "", "target struct names(comma separated ex)Employee,Department... )")
+	inputStructNames := flag.String("types", "", "target struct names(comma separated ex)Employee,Department... )")
 	flag.Parse()
 
 	fmt.Println(flag.Args())
@@ -23,7 +23,7 @@ func main() {
 	if err := Main(flag.Args(), strings.Split(*inputStructNames, ",")); err != nil {
 		log.Print(err)
 		fmt.Printf(`
-Useage: %s -Type=[targetStruct,...] [targetDir]
+Useage: %s -types=[targetStruct,...] [targetDir]
 `, os.Args[0])
 	}
 }
