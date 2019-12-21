@@ -1,0 +1,4 @@
+github.com/doilux/go-genutil v0.0.0-20190728003904-822a317dd876 h1:xYHIF9KLNOg3aeAuNqupnTlw9g/3+u/seCZgdvpMOLQ=
+github.com/doilux/go-genutil v0.0.0-20190728003904-822a317dd876/go.mod h1:zC+Kkq+tIVomlTpf+7mhP727R1a+zPfuNVsvHVUL/rw=
+github.com/doilux/go-strcase v0.0.0-20190805232314-b02d8d1b99e6 h1:t4It5gWTvRAE52kU0Ps2L/mpNqNdxZBKDg34vHTY/0w=
+github.com/doilux/go-strcase v0.0.0-20190805232314-b02d8d1b99e6/go.mod h1:fCWs7ddN35oT3SqbkUZQwawAAPL821cMcEq3fcReM/A=
